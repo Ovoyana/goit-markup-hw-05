@@ -558,6 +558,8 @@ input {
   pointer-events: auto;
 }
 
+/*********BACKDROP STYLES***********/
+
 /*********MODAL WINDOW STYLES************/
 
 .modal {
@@ -574,6 +576,8 @@ input {
   padding: 72px 24px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/*********MODAL WINDOW STYLES************/
 
 /*************MODAL CLOSE BUTTON STYLES***********/
 
@@ -609,6 +613,10 @@ input {
 .modal-close-btn:focus .modal-close-btn-icon {
   fill: #ffffff;
 }
+
+/*************MODAL CLOSE BUTTON STYLES***********/
+ 
+/**************CONTACT FORM STYLES************************/
 
 .form-description {
   width: 360px;
@@ -650,7 +658,6 @@ input {
 }
 .contact-form-input-wrapper {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .contact-form-field-icon {
@@ -663,6 +670,9 @@ input {
 }
 .contact-form-input:focus + .contact-form-field-icon {
   fill: #4d5ae5;
+}
+.contact-form-comment-wrapper {
+  margin-bottom: 16px;
 }
 .contact-form-message {
   width: 100%;
@@ -755,6 +765,10 @@ input {
   background: #404bbf;
 }
 
+/**************CONTACT FORM STYLES************************/
+
+/*************SUBSCRIBING FORM STYLES****************/
+
 .subscribing {
   width: 75px;
   font-size: 16px;
@@ -813,4 +827,6 @@ input {
 .subscribing-box {
   margin-left: 80px;
 }
+
+/*************SUBSCRIBING FORM STYLES****************/
 
