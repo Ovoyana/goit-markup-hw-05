@@ -693,7 +693,9 @@ input {
 .contact-form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
-
+.contact-form-message:focus {
+  border-color: #4D5AE5;
+}
 .contact-form-own-checkbox {
   display: inline-flex;
   justify-content: center;
